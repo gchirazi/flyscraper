@@ -46,6 +46,7 @@ The script uses `webdriver-manager`, but ensure you have **Google Chrome install
 Update `CREDENTIALS_FILE` with the path to your downloaded JSON file:  
 ```python
 CREDENTIALS_FILE = "\path\to\service-account.json"
+SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/example/edit#gid=0"
 ```
 Ensure `SPREADSHEET_URL` is correctly set.
 
